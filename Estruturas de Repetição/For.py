@@ -8,10 +8,18 @@
 #     print (i)
 #     time.sleep(1)
 
-vogais = ['a','e','i','o','u']
-palavra = input("Digite uma palavra que começe com consoante: ")
-for letra in palavra:
-    primeira_letra = palavra[0].lower()
-    if primeira_letra in vogais:
-        break
-    print (letra)
+
+# for i in range(0,10):
+#     if i % 2 == 0:
+#         print (f"{i} é par")
+#     else: 
+#         print (f"{i} é ímpar")
+
+
+# vogais = ['a','e','i','o','u']
+# palavra = input("Digite uma palavra que começe com consoante: ")
+# for letra in palavra:
+#     primeiraLetra = palavra[0].lower()
+#     if primeiraLetra in vogais:
+#         break
+#     print (letra)
